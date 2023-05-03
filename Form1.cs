@@ -6,5 +6,12 @@ namespace LoginForm
         {
             InitializeComponent();
         }
+
+        private void btnlogar_Click(object sender, EventArgs e)
+            /*Envia para uma nova tela ao clicar no botao entrar*/
+        {
+            Iniciocs inicio = new Iniciocs();
+            inicio.ShowDialog();
+        }
     }
 }
