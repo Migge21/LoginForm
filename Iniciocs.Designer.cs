@@ -28,37 +28,73 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Iniciocs));
-            pictureBox1 = new PictureBox();
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
+            cxb_Adicionar = new CheckBox();
+            checkBox2 = new CheckBox();
+            checkBox3 = new CheckBox();
+            checkBox4 = new CheckBox();
             SuspendLayout();
             // 
-            // pictureBox1
+            // cxb_Adicionar
             // 
-            pictureBox1.Dock = DockStyle.Fill;
-            pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
-            pictureBox1.Location = new Point(0, 0);
-            pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(800, 450);
-            pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
-            pictureBox1.TabIndex = 0;
-            pictureBox1.TabStop = false;
+            cxb_Adicionar.AutoSize = true;
+            cxb_Adicionar.Location = new Point(625, 98);
+            cxb_Adicionar.Name = "cxb_Adicionar";
+            cxb_Adicionar.Size = new Size(95, 24);
+            cxb_Adicionar.TabIndex = 0;
+            cxb_Adicionar.Text = "Adicionar";
+            cxb_Adicionar.UseVisualStyleBackColor = true;
+            // 
+            // checkBox2
+            // 
+            checkBox2.AutoSize = true;
+            checkBox2.Location = new Point(625, 128);
+            checkBox2.Name = "checkBox2";
+            checkBox2.Size = new Size(90, 24);
+            checkBox2.TabIndex = 1;
+            checkBox2.Text = "Remover";
+            checkBox2.UseVisualStyleBackColor = true;
+            // 
+            // checkBox3
+            // 
+            checkBox3.AutoSize = true;
+            checkBox3.Location = new Point(625, 158);
+            checkBox3.Name = "checkBox3";
+            checkBox3.Size = new Size(70, 24);
+            checkBox3.TabIndex = 2;
+            checkBox3.Text = "Editar";
+            checkBox3.UseVisualStyleBackColor = true;
+            // 
+            // checkBox4
+            // 
+            checkBox4.AutoSize = true;
+            checkBox4.Location = new Point(625, 188);
+            checkBox4.Name = "checkBox4";
+            checkBox4.Size = new Size(65, 24);
+            checkBox4.TabIndex = 3;
+            checkBox4.Text = "Tudo";
+            checkBox4.UseVisualStyleBackColor = true;
             // 
             // Iniciocs
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
-            Controls.Add(pictureBox1);
+            Controls.Add(checkBox4);
+            Controls.Add(checkBox3);
+            Controls.Add(checkBox2);
+            Controls.Add(cxb_Adicionar);
             Name = "Iniciocs";
             Text = "Iniciocs";
             Load += Iniciocs_Load;
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
 
-        private PictureBox pictureBox1;
+        private CheckBox cxb_Adicionar;
+        private CheckBox checkBox2;
+        private CheckBox checkBox3;
+        private CheckBox checkBox4;
     }
 }
