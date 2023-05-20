@@ -49,7 +49,7 @@
             // groupBox1
             // 
             groupBox1.Controls.Add(txt_nome);
-            groupBox1.Location = new Point(61, 26);
+            groupBox1.Location = new Point(147, 133);
             groupBox1.Name = "groupBox1";
             groupBox1.Size = new Size(270, 63);
             groupBox1.TabIndex = 0;
@@ -67,7 +67,7 @@
             // groupBox2
             // 
             groupBox2.Controls.Add(txt_usuario);
-            groupBox2.Location = new Point(346, 26);
+            groupBox2.Location = new Point(432, 133);
             groupBox2.Name = "groupBox2";
             groupBox2.Size = new Size(253, 63);
             groupBox2.TabIndex = 1;
@@ -79,13 +79,13 @@
             txt_usuario.BorderStyle = BorderStyle.FixedSingle;
             txt_usuario.Location = new Point(6, 26);
             txt_usuario.Name = "txt_usuario";
-            txt_usuario.Size = new Size(231, 27);
+            txt_usuario.Size = new Size(241, 27);
             txt_usuario.TabIndex = 1;
             // 
             // groupBox3
             // 
             groupBox3.Controls.Add(txt_email);
-            groupBox3.Location = new Point(67, 117);
+            groupBox3.Location = new Point(153, 224);
             groupBox3.Name = "groupBox3";
             groupBox3.Size = new Size(264, 63);
             groupBox3.TabIndex = 2;
@@ -103,7 +103,7 @@
             // groupBox4
             // 
             groupBox4.Controls.Add(txt_senha);
-            groupBox4.Location = new Point(352, 117);
+            groupBox4.Location = new Point(438, 224);
             groupBox4.Name = "groupBox4";
             groupBox4.Size = new Size(247, 63);
             groupBox4.TabIndex = 3;
@@ -115,12 +115,12 @@
             txt_senha.BorderStyle = BorderStyle.FixedSingle;
             txt_senha.Location = new Point(6, 26);
             txt_senha.Name = "txt_senha";
-            txt_senha.Size = new Size(225, 27);
+            txt_senha.Size = new Size(235, 27);
             txt_senha.TabIndex = 6;
             // 
             // button1
             // 
-            button1.Location = new Point(432, 212);
+            button1.Location = new Point(518, 319);
             button1.Name = "button1";
             button1.Size = new Size(151, 48);
             button1.TabIndex = 4;
@@ -133,7 +133,7 @@
             linkLabel1.AutoSize = true;
             linkLabel1.Font = new Font("Segoe UI", 10.8F, FontStyle.Regular, GraphicsUnit.Point);
             linkLabel1.LinkBehavior = LinkBehavior.NeverUnderline;
-            linkLabel1.Location = new Point(87, 232);
+            linkLabel1.Location = new Point(173, 339);
             linkLabel1.Name = "linkLabel1";
             linkLabel1.Size = new Size(58, 25);
             linkLabel1.TabIndex = 5;
@@ -150,16 +150,16 @@
             panel1.Controls.Add(groupBox2);
             panel1.Controls.Add(groupBox1);
             panel1.Controls.Add(groupBox4);
-            panel1.Location = new Point(182, 59);
+            panel1.Location = new Point(189, 147);
             panel1.Name = "panel1";
-            panel1.Size = new Size(666, 372);
+            panel1.Size = new Size(822, 470);
             panel1.TabIndex = 6;
             // 
             // Cadastro
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1007, 583);
+            ClientSize = new Size(1208, 726);
             Controls.Add(panel1);
             Name = "Cadastro";
             Text = "Cadastro";
